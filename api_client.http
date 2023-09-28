@@ -1,0 +1,22 @@
+@host = http://127.0.0.1:8000
+
+###
+GET {{host}}/api/products
+
+###
+POST {{host}}/api/products
+Content-Type: application/json
+
+{
+    "name": "Quan dai 0005",
+    "image": "kjhafasd",
+    "description": "ajhgbc",
+    "price": "530.00",
+    "category": 1
+}
+
+###
+DELETE {{host}}/api/products/delete/3
+
+### ducnvb
+GET {{host}}/api/sast/fake
