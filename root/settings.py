@@ -84,14 +84,15 @@ WSGI_APPLICATION = 'root.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'homework_django',
-        'USER': 'postgres',
-        'PASSWORD': '2082001',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django_app',
+        'USER': 'ducnv',
+        'PASSWORD': 'Trangiuduc1302',
+        'HOST':'localhost',
+        'PORT':'3306',
     }
 }
 
